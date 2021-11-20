@@ -1,0 +1,255 @@
+{
+  "phones": [
+    {
+      "name": "Xiaomi Redmi Note 9SS",
+      "description": "8-Core Qualcomm ",
+      "brand": "MI",
+      "image": "https://ostore.kg/upload/resize_cache/iblock/1ef/500_500_1/1White.jpg",
+      "price": 17990,
+      "color": "gray",
+      "modal": "Note  9s ",
+      "id": 3
+    },
+    {
+      "name": "Xiaomi POCO M3 Pro",
+      "description": "8-Core MediaTek Dimensity 700",
+      "brand": "MI",
+      "image": "https://ostore.kg/upload/resize_cache/iblock/f4e/500_500_1/1Black.jpg",
+      "price": 17900,
+      "color": "Yellow",
+      "modal": "Xiaomi",
+      "id": 4
+    },
+    {
+      "name": "iPhone XS Max",
+      "description": "Apple A12 Bionic",
+      "brand": "Apple",
+      "image": "https://ostore.kg/upload/resize_cache/iblock/5be/500_500_1/1Gray.jpeg",
+      "price": 898968687687,
+      "color": "62900",
+      "modal": "XS MAX",
+      "id": 5
+    },
+    {
+      "name": "MOTOROLA",
+      "description": "MOTOROLA xpin",
+      "brand": "MOTOROLA",
+      "image": "https://cdn.pixabay.com/photo/2016/03/27/19/43/samsung-1283938__340.jpg",
+      "price": 1399,
+      "color": "BLUE",
+      "modal": "5POK",
+      "id": 6
+    },
+    {
+      "name": "Nokia G50 4/128",
+      "description": "Артикул: 7676733-1-1-1",
+      "brand": "Nokia",
+      "image": "https://mobileshop.nokia.ru/upload/resize_cache/iblock/c8b/560_560_1/c8bd4efa8b79a60c2985561fd3e70e23.jpg",
+      "price": 20000,
+      "color": "Aqua  (голубой океан)",
+      "modal": " Snapdragon 480 5G",
+      "id": 7
+    },
+    {
+      "name": "Nokia 6310",
+      "description": "Nokia 6310 — обновленная модель легендарного телефона Nokia 6310, обладающая всеми современными функциями. ",
+      "brand": "Nokia",
+      "image": "https://mobileshop.nokia.ru/upload/resize_cache/iblock/6e4/560_560_1/6e4fd237f275c32e96ba092a3163158f.jpg",
+      "price": 5000,
+      "color": "Yellow",
+      "modal": "6310",
+      "id": 8
+    },
+    {
+      "name": "Samsung  S10 Plus",
+      "description": "GSM 850, GSM 900, GSM 1800, GSM 1900\t Диапазоны UMTS\tUMTS 850, UMTS 900, UMTS 1700, UMTS 1900, UMTS 2100\t Диапазоны LTE\tLTE 700, 800, 850, 900, 1700, 1800, 1900, 2100, 2600; LTE Cat 204G TDD LTEB40 (2300)\t Доступ в интернет\tGSM/GPRS/EDGE/WCDMA/HSPA+/LTE Cat 20\t Bluetooth\tBluetooth 5.0\t Wi-Fi (802.11)\tWi-Fi 802.11 a/b/g/n/n 5GHz, Dual band, Wi-Fi Hotspot, Wi-Fi Direct",
+      "brand": "Samsung",
+      "image": "https://ostore.kg/upload/resize_cache/iblock/ffc/500_500_1/1Black.PNG",
+      "price": 62990,
+      "color": "black",
+      "modal": "Galaxy",
+      "id": 9
+    },
+    {
+      "name": "iPhone XR",
+      "description": "6-ядерный Apple A12 Bionic APL1W81",
+      "brand": "Apple",
+      "image": "https://ostore.kg/upload/resize_cache/iblock/14e/500_500_1/1Black.PNG",
+      "price": 47900,
+      "color": "black",
+      "modal": "XR",
+      "id": 10
+    },
+    {
+      "name": "iPhone",
+      "description": " Super Retina XDR Дисплей OLED, на всю переднюю панель, диагональ 5,4 дюйма Поддержка HDR Технология True Tone Широкий цветовой охват (P3)",
+      "brand": "Apple",
+      "image": "https://istore.kg/media/products/12-mini-green_jJG9PNn.webp",
+      "price": 60279,
+      "color": " Green , White , Black , (PRODUCT)RED , Blue , Purple",
+      "modal": "iPhone 12 mini",
+      "id": 11
+    },
+    {
+      "name": "GOOGLE",
+      "description": "Android 10 (мА·ч)3 885 Быстрая зарядка 18 Вт",
+      "brand": "GOOGLE",
+      "image": "https://softech.kg/image/cache/dfd5054153fa33a17aa5a6517f8841ab.jpg",
+      "price": 39999,
+      "color": "black",
+      "modal": "PIXEL 4A 5G (6+128) EU",
+      "id": 12
+    },
+    {
+      "name": "INFINIX",
+      "description": "Android 10, XOS 6.0",
+      "brand": "INFINIX",
+      "image": "https://softech.kg/image/cache/50abdbae685334fa34d0b5c61ed78463.jpg",
+      "price": 12150,
+      "color": "ocean",
+      "modal": "INFINIX NOTE 7 LITE (4+128) EU",
+      "id": 13
+    },
+    {
+      "name": "HONOR",
+      "description": "Android 10.0; EMUI 10 with HMS (нет сервисов Google Play)",
+      "brand": "HONOR",
+      "image": "https://softech.kg/image/cache/d5963ef5ae3a656470f75c2147af0f9a.jpg",
+      "price": 30000,
+      "color": "Gray",
+      "modal": "HONOR 10X 5G (6+128) EU",
+      "id": 14
+    },
+    {
+      "name": "ASUS",
+      "description": "сканер отпечатка пальцев под дисплеем, акселерометр, гироскоп, электронный компас, датчик приближения, датчик освещённости, датчик Холла, два ультразвуковых AirTriggers 3",
+      "brand": "ASUS",
+      "image": "https://softech.kg/image/cache/2a6c91abb34fd50391e0c903d5d1f7c0.jpg",
+      "price": 52500,
+      "color": "black",
+      "modal": "ROG PHONE 3 (12+128) SNAPDRAGON 865+",
+      "id": 15
+    },
+    {
+      "name": "LENOVO",
+      "description": "G-Sensor, Гироскоп, Датчик освещенности, Датчик приближения, Цифровой компас",
+      "brand": "LENOVO",
+      "image": "https://softech.kg/image/cache/3fe8c4857f09b1a252a9ba0d29f4a318.jpg",
+      "price": 79950,
+      "color": "white",
+      "modal": "LEGION 2 PRO (8+128) EU",
+      "id": 16
+    },
+    {
+      "name": "ONEPLUS 9",
+      "description": "Сканер отпечатков пальцев под экраном, быстрая зарядка Warp Charge 65T, UFS 3.1, USB 3.1, Dolby Atmos, игровой режим Fnatic",
+      "brand": "ONEPLUS",
+      "image": "https://softech.kg/image/cache/f0d40ff52f8b3f54c0552c8672a3413b.jpg",
+      "price": 51400,
+      "color": "blue",
+      "modal": "ONEPLUS 9 (12+256)",
+      "id": 17
+    },
+    {
+      "name": "XIAOMI",
+      "description": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "brand": "MI",
+      "image": "https://softech.kg/image/cache/56283cbd6927e27cf8fd0168fa7db8d1.jpg",
+      "price": 82950,
+      "color": "black, white",
+      "modal": "XIAOMI MI 11 ULTRA (8+256) EU",
+      "id": 18
+    },
+    {
+      "name": "SAMSUNG",
+      "description": "Exynos 9825",
+      "brand": "Samsung",
+      "image": "https://softech.kg/image/cache/147d7d60ddcb1b9b0c56b7663b935086.jpg",
+      "price": 27750,
+      "color": "Green",
+      "modal": "GALAXY F62 (8+128) EU",
+      "id": 19
+    },
+    {
+      "name": "REALME",
+      "description": "8 MP, f/2.3, 16mm, 119˚ (ультра-широкий), 1/4.0\", 1.12µm",
+      "brand": "REALME",
+      "image": "https://softech.kg/image/cache/28d8ad676b6acec8ac204b6b91547f83.jpg",
+      "price": 35150,
+      "color": "silver",
+      "modal": "GT 5G (8+128) EU",
+      "id": 20
+    },
+    {
+      "name": "ZTE",
+      "description": "Android 11, Redmagic 4.0",
+      "brand": "ZTE",
+      "image": "https://softech.kg/image/cache/2b31380fc1331b33faa15b70e381e207.jpg",
+      "price": 63700,
+      "color": "black",
+      "modal": "NUBIA RED MAGIC 6 PRO (16+256) EU",
+      "id": 21
+    },
+    {
+      "name": "Nokia",
+      "description": "2G 2, 3.5G (HSDPA, HSDPA+, HSUPA, HSPA, HSPA+), 3G UMTS/WCDMA, GPS, ГЛОНАСС, BDS, Galileo",
+      "brand": "Nokia",
+      "image": "https://softech.kg/image/cache/e1b1c5c69c9e80d08e4c472c616f4800.jpg",
+      "price": 12750,
+      "color": "white",
+      "modal": "X6 (4+64)",
+      "id": 22
+    },
+    {
+      "name": "SONY",
+      "description": "Впечатляющий просмотр и съемка благодаря удобному и элегантному дизайну. Для чего бы вы ни использовали свой смартфон, наслаждайтесь им еще больше с Xperia 10 II.",
+      "brand": "SONY",
+      "image": "https://softech.kg/image/cache/67c57011b25581fc543db3ce32de1813.jpg",
+      "price": 28450,
+      "color": "aqua",
+      "modal": "XPERIA 10 II (4+128) EU",
+      "id": 23
+    },
+    {
+      "name": "SONY",
+      "description": "Впечатляющий просмотр и съемка благодаря удобному и элегантному дизайну. Для чего бы вы ни использовали свой смартфон, наслаждайтесь им еще больше с Xperia 10 II.",
+      "brand": "SONY",
+      "image": "https://softech.kg/image/cache/67c57011b25581fc543db3ce32de1813.jpg",
+      "price": 28450,
+      "color": "aqua",
+      "modal": "XPERIA 10 II (4+128) EU",
+      "id": 24
+    },
+    {
+      "name": "SONY",
+      "description": "Впечатляющий просмотр и съемка благодаря удобному и элегантному дизайну. Для чего бы вы ни использовали свой смартфон, наслаждайтесь им еще больше с Xperia 10 II.",
+      "brand": "SONY",
+      "image": "https://softech.kg/image/cache/67c57011b25581fc543db3ce32de1813.jpg",
+      "price": 28450,
+      "color": "aqua",
+      "modal": "XPERIA 10 II (4+128) EU",
+      "id": 25
+    },
+    {
+      "name": "SONY",
+      "description": "Впечатляющий просмотр и съемка благодаря удобному и элегантному дизайну. Для чего бы вы ни использовали свой смартфон, наслаждайтесь им еще больше с Xperia 10 II.",
+      "brand": "SONY",
+      "image": "https://softech.kg/image/cache/67c57011b25581fc543db3ce32de1813.jpg",
+      "price": 28450,
+      "color": "aqua",
+      "modal": "XPERIA 10 II (4+128) EU",
+      "id": 26
+    },
+    {
+      "name": "SONY",
+      "description": "Впечатляющий просмотр и съемка благодаря удобному и элегантному дизайну. Для чего бы вы ни использовали свой смартфон, наслаждайтесь им еще больше с Xperia 10 II.",
+      "brand": "SONY",
+      "image": "https://softech.kg/image/cache/67c57011b25581fc543db3ce32de1813.jpg",
+      "price": 28450,
+      "color": "aqua",
+      "modal": "XPERIA 10 II (4+128) EU",
+      "id": 27
+    }
+
+  ]
+}

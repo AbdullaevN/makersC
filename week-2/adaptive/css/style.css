@@ -1,0 +1,96 @@
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+    font-size: 25px;
+} */
+
+/* 
+* {
+    font-size: 20px;
+}
+
+.javascript {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: black;
+}
+
+.python {
+    width: 150px;
+    height: 150px;
+    background: red;
+    color: black;
+    display: none;
+}
+
+.php {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    color: black;
+    display: none;
+} */
+
+/* @media screen and (max-width: 1024px) {
+    .javascript {
+        display: none;
+    }
+    .python {
+        display: block;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .python {
+        display: block;
+    }
+    .php {
+        display: block;
+    }
+} */
+
+/* 
+div {
+    width: 600px;
+    height: 600px;
+    background-color: violet;
+    font-size: 100px;
+}
+
+@media all and (max-width: 620px) {
+    div {
+        width: 70%;
+        font-size: 70px;
+    }
+} */
+
+.circle {
+    background: brown;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    animation-name: pulsing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsing {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    50% {
+        transform: scale(1.0, 1.0);
+    }
+    100% {
+        transform: scale(0.5, 0.5);
+    }
+}

@@ -1,0 +1,54 @@
+/* .block-animation {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.block-animation:hover {
+    background-color: crimson;
+}
+
+.block-animation2 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    transition: width 2s cubic-bezier(0, .99, 1, .01), height 2s cubic-bezier(0, .99, 1, .01);
+    background-color: coral;
+}
+
+.block-animation2:hover {
+    width: 300px;
+    height: 300px;
+} */
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        background-color: aqua;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p {}
+
+@keyframes slidein {
+    from {
+        margin-left: ;
+    }
+    to {}
+}

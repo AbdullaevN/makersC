@@ -1,0 +1,152 @@
+/* display, block, inline, inline-block  */
+
+/* p {
+    display: inline-block;
+    background-color: red;
+    width: 300px;
+}
+
+span {
+    background-color: aqua;
+    display: block;
+    width: 300px;
+} */
+
+/* _______________________________________________________ */
+
+/* ПСЕЛДОКЛАССЫ */
+
+span:first-child {
+    color: blue;
+}
+
+span:last-child {
+    color: coral;
+}
+
+span:nth-child(2) {
+    color: yellow;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Посещенные ссылки */
+
+a:visited {
+    color: pink;
+}
+
+/* Непосещенные ссылки */
+
+a:link {
+    color: orange;
+}
+
+a {
+    transition: all 1s;
+}
+
+/* При новедении */
+
+a:hover {
+    background-color: gray;
+    font-size: 30px;
+}
+
+/* активные ссылки */
+
+a:active {
+    color: black;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* К сторчным тегам не работает */
+
+span::first-letter {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Первая буква текста */
+
+p::first-letter {
+    font-size: 16px;
+    font-weight: 700;
+    color: chartreuse;
+}
+
+/* Первая строка текста */
+
+p::first-line {
+    font-style: italic;
+    background: dimgrey;
+}
+
+/* Чтобы работать с текстом внутри коробки */
+
+input::placeholder {
+    color: tomato;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* Чтоы поставить контент перед и после элемента */
+
+#sometext::before {
+    content: "apple ";
+}
+
+#sometext::after {
+    content: " M1";
+    font-weight: 700;
+}
+
+#alsotext::after, ::before {
+    content: "    uyg    ";
+}
+
+.main-block {
+    width: 100%;
+    background: springgreen;
+}
+
+.navbar {
+    position: fixed;
+    /* position: sticky; */
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: darkblue;
+    z-index: 2;
+}
+
+.divone {
+    padding-top: 100px;
+}
+
+.content-block {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background: gray;
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: black;
+    /* right: 0px; */
+    /* bottom: 10px; */
+    /* top: 0; */
+    /* left: 10px; */
+    z-index: 1;
+}

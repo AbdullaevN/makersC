@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-- Блок -->
+        <!-- Должен отвечать на вопрос: Что это? -->
+        <!-- Это не состояние. Какой? Как выглядит? -->
+
+        <!-- Верно -->
+        <div class="warning"> </div>
+        <!-- Не верно -->
+        <div class="yellow-warning"></div>
+        <div class="nav-left">
+            <div class="logo"></div>
+        </div>
+
+        <!-- Элемент -->
+        <!-- Должен отвечать на вопрос: Что это? -->
+        <!-- Это не состояние. Какой? Как выглядит? -->
+        <!-- Имя элемента отделяется от имени блока двумя подчеркиваниями  (__) -->
+        <form class="search-form">
+            <input class="search-form__input" type="text">
+            <button class="search-form__btn"> btn</button>
+        </form>
+        <!-- Элемент всегда часть блока а не другого элемента -->
+        <form class="search-form">
+            <div class="search-form__content">
+                <!-- либо так -->
+                <input class="search-form__input" type="text">
+                <!-- либо так -->
+                <input class="search-form__content-input" type="text">
+                <!--  -->
+                <button class="search-form__btn"></button>
+                <button class="search-form__content-btn"></button>
+            </div>
+        </form>
+
+        <!-- Элемент необязательный компонент блока 
+        не у всех блоков должны быть элементы -->
+        <!-- не верно -->
+        <form class="search-form"> </form>
+        <input type="text" class="search-form__input">
+
+        <!--блок search-form-->
+        <form class="search-form">
+
+            <!-- Блок input -->
+            <input type="text" class="input">
+
+            <!-- Блок button -->
+            <button class="button" Search>utfvjy</button>
+        </form>
+
+
+        <!-- модификатор -->
+        <!-- Должен отвечать на вопрос: Какой? -->
+        <!-- Это не состояние. Какой? Как выглядит? -->
+        <!-- Имя модификатора отделяется от имени блока двумя подчеркиваниями  (_) -->
+        <!-- Есть 2 типа модификатора:
+        1. Булевый
+        2. Ключ-значение  -->
+        <!--  -->
+        <!-- Булевый  -->
+        <div class="make-order">
+            <button class="make-order__btn make-order__btn_disabled">Сделать
+                заказ</buttondisables>
+        </div>
+
+        <!-- Ключ-значение -->
+        <div class="make-order">
+            <button disabled class="make-order__btn make-order__btn_color_red">Сделать
+                заказ</button>
+        </div>
+
+        <div class="description">
+            <p class="description__p
+                description_pp_color_green
+                description_pp_fsz_24px"></p>
+        </div>
+        <!-- Невозможно одновременно использовать два одинаковых модификатора с разными значениями -->
+        <div class="description">
+            <p class="description__p
+                description_pp_fw_700
+                description_pp_fw_400"></p>
+        </div>
+
+        <!-- ________________________________________________________________________ -->
+        <!-- input -->
+        <input type="text" placeholder="Enter name">
+        <input type="password" placeholder="Enter name">
+        <input type="tel" placeholder="Enter name">
+        <input type="email" placeholder="Enter name">
+        <input type="number" placeholder="Enter name">
+        <input type="checkbox" placeholder="Enter name">
+        <input type="radio" placeholder="Enter name">
+        <input type="time" placeholder="Enter name">
+        <input type="date" placeholder="Enter name">
+
+        <!-- table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>count</th>
+                    <th>uyu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ugi</td>
+                    <td>32</td>
+                    <td>13</td>
+                    <td>23ff</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>#</td>
+                    <th>Total</th>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>

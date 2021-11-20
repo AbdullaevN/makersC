@@ -1,0 +1,7 @@
+/* * {
+  background: rgb(122, 181, 189);
+} */
+
+.completed {
+  text-decoration: line-through;
+}
