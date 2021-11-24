@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url(d:\Новая папка\mkrs\week-12\app-sass\src\Components\Navbar\assets\Navbar.css);
+@import url(d:\Новая папка\mkrs\week-12\app-sass\src\Components\MainPageBody\assets\MainPageBody.css);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+/*# sourceMappingURL=Styles.css.map */

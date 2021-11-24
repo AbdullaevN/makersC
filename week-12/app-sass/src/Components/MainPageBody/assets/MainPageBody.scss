@@ -1,0 +1,75 @@
+@import "../../../Variables/Variables.scss";
+
+.hero {
+  position: relative;
+  h1 {
+    font-size: 170px;
+    font-family: $latoFont;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 80px;
+  }
+  img {
+    position: absolute;
+    // bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+  }
+}
+
+.go-to-docs {
+  display: flex;
+  justify-content: center;
+  button {
+    font-family: $latoFont;
+    font-weight: 300;
+    padding: 13px 34px;
+    border: 3px $yellowColor solid;
+    background-color: transparent;
+    background: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+}
+
+//
+//
+.add-theme {
+  margin-top: 100px;
+  margin-bottom: 78px;
+  display: flex;
+  justify-content: center;
+  button {
+    background: #fff;
+    font-family: $montserratFont;
+    font-weight: 400;
+    border: none;
+    font-size: 18px;
+    span {
+      margin-right: 10px;
+    }
+  }
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 38px;
+  .card {
+    background: black;
+    height: 225px;
+    border-radius: 27px;
+    color: $yellowColor;
+    font-size: 46px;
+    font-family: $latoFont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    &:hover {
+      color: black;
+      background: $yellowColor;
+    }
+  }
+}
